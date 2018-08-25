@@ -16,7 +16,8 @@ and if we don't... share your solution in the repo
 and help millions of other testers and developers in your shoes.
 
 Test as a community to cover more with less.
-Help the Qaviton framework to automate tests that can run against any testing scenario.
+
+Help the Qaviton framework automate tests and run against any testing scenario.
 
 
 Installing
