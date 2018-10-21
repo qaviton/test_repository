@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="15.678"><testcase classname="load_tests.ramp_and_peak_tests" file="load_tests\ramp_and_peak_tests.py" line="83" name="test_peak" time="15.497734785079956"></testcase></testsuite>
