@@ -1,0 +1,9 @@
+best response: 0.3794078826904297
+worst response: 0.7292590141296387
+avg: 0.40873529456910634
+med: 0.4052693843841553
+passed: 210
+failed: 0
+total requests: 210
+pass rate: 100.0
+total duration: 1540118585.947657
