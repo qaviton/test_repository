@@ -49,11 +49,11 @@ First time setup
         git config --global user.email 'your email'
 
 - Make sure you have a `GitHub account`_.
-- Fork Qaviton to your GitHub account by clicking the `Fork`_ button.
+- Fork Qaviton Test Repository to your GitHub account by clicking the `Fork`_ button.
 - `Clone`_ your GitHub fork locally::
 
-        git clone https://github.com/{username}/qaviton
-        cd qaviton
+        git clone https://github.com/{username}/test_repository
+        cd test_repository
 
 - Add the main repository as a remote to update later::
 
