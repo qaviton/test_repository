@@ -1,8 +1,13 @@
 from tests.pages.components.page import Page
 from tests.parameters.locators import locator
+from tests.pages.components.login import Login
 
 
 class QavitonHomePage(Page):
+    def __init__(self, driver, *args, **kwargs):
+        Page.__init__(self, driver, *args, **kwargs)
+        self.login = Login()
+
     def SIGN_UP_FOR_A_BETA(self):
         return self.find(locator.SIGN_UP_FOR_A_BETA)
 
@@ -23,3 +28,5 @@ class QavitonHomePage(Page):
 
     def qaviton_email_demo_request(self):
         return self.find(locator.qaviton_email_demo_request)
+
+
