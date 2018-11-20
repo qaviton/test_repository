@@ -29,4 +29,6 @@ class QavitonHomePage(Page):
     def qaviton_email_demo_request(self):
         return self.find(locator.qaviton_email_demo_request)
 
-
+    def navigate_to_Login(self, weight=10, *args, **kwargs):
+        self.qaviton_menu_home_button().click()
+        self.wait_until_page_loads()

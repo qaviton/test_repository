@@ -12,3 +12,10 @@ class Login(page):
 
     def login_button(self):
         return self.find(locator.login_button)
+
+    def __call__(self, username, password):
+        self.opl_user_login().send(username)
+        self.opl_user_pass().send(password)
+        self.login_button().click()
+        self.wait_until_page_loads()
+        self.confirm_element_is_deleted(locator.opl_user_login)
