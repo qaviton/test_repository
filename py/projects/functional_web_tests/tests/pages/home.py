@@ -4,9 +4,9 @@ from tests.pages.components.login import Login
 
 
 class HomePage(Page):
-    def __init__(self, driver, *args, **kwargs):
-        Page.__init__(self, driver, *args, **kwargs)
-        self.login = Login()
+    def __init__(self, driver):
+        Page.__init__(self, driver)
+        self.login = Login(driver)
 
     def go_to_login(self):
         return self.find(locator.go_to_login)
