@@ -1,7 +1,7 @@
 from qaviton.navigator import Navigator
 from tests.parameters.locators import locator
 from tests.pages.components.page import Page
-from tests.pages.qaviton_home import QavitonHomePage
+from tests.pages.home import QavitonHomePage
 
 
 class App(Page):
