@@ -1,6 +1,8 @@
 Work Procedure-Qaviton opensource test repository  
 =================================================  
   <br />
+  please download the "Work Procedure-Qaviton opensource test repository.docx" <br />
+  to get a more readable version to suport your language.<br />
   <br />
   
 חלק א' – התקנות ופתיחת משתמשים
