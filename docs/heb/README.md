@@ -11,7 +11,7 @@ Work Procedure-Qaviton opensource test repository
   <br />
 במידה ואנחנו מתקינים את התוכנה על מערכת הפעלה וינדוס  
  יש לוודא שההתקנה בוצעה כהלכה בצעדים הבאים:  
-  <br />
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/py-ins1.png)  
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/py-ins2.png)  
@@ -41,7 +41,7 @@ Work Procedure-Qaviton opensource test repository
 1.	להיכנס ללינק הנ"ל:  
 https://github.com/qaviton/qaviton  
 2.	לעשות לנו STAR :  
-  <br />
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/git3.png)  
     <br />
   <br />
@@ -109,7 +109,7 @@ Fork- הינו לקחת את הקוד הראשי ולהעתיק אותו אל
   <br />
 1.	לאחר מכן נמשיך ל-CLONE ונשתמש ב-"GIT BASH" במחשב שלנו או שימוש ב-PYCHARM.  
 במקום ה-'USERNAME' נשים את המשתמש שלנו, כל השאר אותו הדבר:  
-  <br />
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/repo2clone1.png)  
       <br />
   <br />
@@ -152,7 +152,8 @@ git remote set-url origin https://github.com/idanhakimi/test_repository.git
 ====================================  
   <br />
 1.	כעת נפתח את הפרויקט עם PYCHARM:  
-  <br />
+
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/pycharmopen1.png)  
       <br />
   <br />
@@ -252,7 +253,7 @@ https://github.com/qaviton/qaviton
 1.	כעת נבחר ISSUES (משימות) אותם ניקח מתוך הרשימה הגדולה:  
   <br />
 https://github.com/qaviton/test_repository/issues  
-  <br />
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/issu1.png)  
       <br />
   <br />
@@ -293,7 +294,7 @@ https://github.com/qaviton/test_repository/issues
   <br />
 1.	בכל פעם שנרצה לקחת משימה, נייצר BRANCH מקומי חדש וזמני  
  עבור המשימה ונכלול בשם שלו את מספר ה-ISSUE ושם ה-ISSUE:  
-  <br />
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/branch1.png)  
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/branch2.png)  
@@ -312,7 +313,7 @@ https://github.com/qaviton/test_repository/issues
  התואם את כותרת ה-ISSUE שלקחתם ב-GITHUB עם _ במקום רווחים.  
   <br />
 **במידה וה-ISSUE  מכיל מספר טסטים, הקובץ גם יכיל מספר טסטים.  
-  <br />
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/test1.png)  
       <br />
   <br />
@@ -450,7 +451,7 @@ https://www.jetbrains.com/help/pycharm/pytest.html
 ===================== 
   <br />
 לאחר ה- PUSH אנו עושים PULL REQUEST ב-GITHUB:  
-  <br />
+
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/pul1.png)  
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/pul2.png) 
