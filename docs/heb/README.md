@@ -57,7 +57,8 @@ https://github.com/qaviton/qaviton    <br />
   <br />
   <br />
   <br />
-4.	להגיע למסך של FIRST TIME SETUP אשר נראה כך:    <br />
+4.	להגיע למסך אשר נראה כך<br />
+    FIRST TIME SETUP<br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/cont2.png)  
     <br />
