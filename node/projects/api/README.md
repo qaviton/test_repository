@@ -25,5 +25,10 @@ To Run the node.js tests execute these commands in your terminal:
 3. npm start
 ```
 
+Test Results:
+![alt text](https://cdn-images-1.medium.com/max/720/1*Y6vYy2iJyOXP84wFl1mYag.png)
+
+![alt text](https://cdn-images-1.medium.com/max/720/1*iDftJjjtBPfZwlnuuh3BMA.png)
+
 this project is related to these links:
 https://medium.com/prismapp/10-steps-how-to-automate-your-api-testing-effectively-af866fba942f
