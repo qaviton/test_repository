@@ -6,11 +6,11 @@ Work Procedure-Qaviton opensource test repository
 חלק א' – התקנות ופתיחת משתמשים
 ================================  
   <br />
-1.	התקנת GIT למחשב - https://git-scm.com/downloads  
-2.	להתקין PYTHON 3.7 במחשב- https://www.python.org/downloads/  
+1.	התקנת GIT למחשב - https://git-scm.com/downloads    <br />
+2.	להתקין PYTHON 3.7 במחשב- https://www.python.org/downloads/    <br />
   <br />
-במידה ואנחנו מתקינים את התוכנה על מערכת הפעלה וינדוס  
- יש לוודא שההתקנה בוצעה כהלכה בצעדים הבאים:  
+במידה ואנחנו מתקינים את התוכנה על מערכת הפעלה וינדוס    <br />
+ יש לוודא שההתקנה בוצעה כהלכה בצעדים הבאים:    <br />
 
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/py-ins1.png)  
   <br />
