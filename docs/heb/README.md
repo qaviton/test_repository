@@ -6,7 +6,7 @@ Work Procedure-Qaviton opensource test repository
 חלק א' – התקנות ופתיחת משתמשים
 ================================  
   <br />
-1.	התקנת GIT למחשב - https://git-scm.com/downloads    <br />
+1.	התקנת גיט למחשב - https://git-scm.com/downloads    <br />
 2.	להתקין PYTHON 3.7 במחשב- https://www.python.org/downloads/    <br />
   <br />
 במידה ואנחנו מתקינים את התוכנה על מערכת הפעלה וינדוס    <br />
@@ -21,11 +21,12 @@ Work Procedure-Qaviton opensource test repository
   <br />
   <br />
   <br />
-3.	להתקין PYCHARM COMMUNITY EDITION - https://www.jetbrains.com/pycharm/download/    <br />
-4.	לפתוח משתמש ב-GITHUB    <br />
-5.	לעשות ווידוא של המשתמש במייל.    <br />
-6.	לשלוח בקבוצת בואטסאפ את השם משתמש בכדי שנוסיף אתכם לפרויקט.    <br />
-7.	כעת תאשר במייל את ההזמנה לפרויקט:    <br />
+3.	להתקין PYCHARM COMMUNITY EDITION<br />
+    https://www.jetbrains.com/pycharm/download/<br />
+4.	לפתוח משתמש ב-GITHUB<br />
+5.	לעשות ווידוא של המשתמש במייל.<br />
+6.	לשלוח בקבוצת בואטסאפ את השם משתמש בכדי שנוסיף אתכם לפרויקט.<br />
+7.	כעת תאשר במייל את ההזמנה לפרויקט:<br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/git1.png)  
   <br />
@@ -47,13 +48,13 @@ https://github.com/qaviton/qaviton    <br />
   <br />
   <br />
   <br />
-3.	בהמשך הדף תחת קטגוריית  <br />
-"Contributing"  <br />
-ללחוץ על <br />
- "Contributing Guidelines".    <br />
+3.	בהמשך הדף תחת קטגוריית<br />
+    "Contributing"  <br />
+ללחוץ על    <br />
+    "Contributing Guidelines". <br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/cont1.png)  
-    <br />
+  <br />
   <br />
   <br />
   <br />
@@ -65,8 +66,8 @@ https://github.com/qaviton/qaviton    <br />
   <br />
   <br />
   <br />
-5.	לאחר שהתקנו את ה-GIT ופתחנו משתמש    <br />
- , נפתח את GIT BASH ונריץ את הפקודות אשר נמצאות בנקודה מספר 2.    <br />
+5.	לאחר שהתקנו את גיט ופתחנו משתמש    <br />
+ , נפתח GIT BASH ונריץ את הפקודות אשר נמצאות בנקודה מספר 2.    <br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/term1.png)  
     <br />
