@@ -141,13 +141,13 @@ structure and delete the current path:   <br />
 'add content root' and add the project we want to work on.  <br />
 then click on We currently work on functional_web_tests:  <br />
   
-![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/add_new_proj_toot.png)  <br />
+![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/add_new_proj_root.png)  <br />
   <br />
 Now in the pycharm terminal we run: cd py\projects\functional_web_tests  <br />
 And run the following command: pip install -r test_requirments.txt  <br />
   <br />
   <br />
-![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/install_req.png)  <br />
+![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/install_req.jpg)  <br />
   <br />
 and lastly we need to change our test runner   <br />
 from the default unittest to py.test/pytest  <br />
@@ -171,7 +171,7 @@ for testing in chrome, android, firefox etc.  <br />
 we can install a local server for this:  <br />
 https://github.com/qaviton/qaviton  <br />
   <br />
-![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/run_local_hub.png)  <br />
+![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/run_local_hub.jpg)  <br />
   <br />
   <br />
   

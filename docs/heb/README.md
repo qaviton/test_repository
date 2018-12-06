@@ -201,7 +201,7 @@ venv\Scripts\activate    <br />
 נוסיף את הפרויקט שעליו נרצה לעבוד,     <br />
 כרגע אנו עובדים על "functional_web_tests"    <br />
   <br />
-![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/add_new_proj_toot.png)  
+![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/add_new_proj_root.png)  
       <br />
   <br />
   <br />
@@ -209,7 +209,7 @@ venv\Scripts\activate    <br />
 כעת ב-TERMINAL נצטרך ללכת ל-PATH  שמתואר באיור ולעשות :    <br />
 pip install -r test_requirments.txt    <br />
   <br />
-![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/install_req.png)  
+![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/install_req.jpg)  
       <br />
   <br />
   <br />
@@ -249,7 +249,7 @@ hub = 'http://X.X.X.X:4444/wd/hub'    <br />
 אנו ניכנס לקישור הבא ונלך ל-SECTION המתואר בתמונה:    <br />
 https://github.com/qaviton/qaviton    <br />
   <br />
-![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/run_local_hub.png)  
+![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/run_local_hub.jpg)  
   <br />
       <br />
   <br />
