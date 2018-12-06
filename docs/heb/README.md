@@ -2,7 +2,8 @@ Work Procedure-Qaviton opensource test repository
 =================================================  
   <br />
   <br />
-חלק א' – התקנות ופתיחת משתמשים  
+  
+חלק א' – התקנות ופתיחת משתמשים
 ================================  
   <br />
 1.	התקנת GIT למחשב - https://git-scm.com/downloads  
@@ -33,6 +34,7 @@ Work Procedure-Qaviton opensource test repository
   <br />
   <br />
   <br />
+  
 חלק ב'  - FORK & STAR  
 =====================  
   <br />
@@ -101,6 +103,7 @@ Fork- הינו לקחת את הקוד הראשי ולהעתיק אותו אל
   <br />
   <br />
   <br />
+  
 חלק ג' - CLONES  
 ===============  
   <br />
@@ -144,6 +147,7 @@ git remote set-url origin https://github.com/idanhakimi/test_repository.git
   <br />
   <br />
   <br />
+  
 חלק ד' – הגדרת סביבת עבודה ב-PYCHARM  
 ====================================  
   <br />
@@ -241,6 +245,7 @@ https://github.com/qaviton/qaviton
   <br />
   <br />
   <br />
+  
 חלק ה' – Issues Assignment  
 ==========================  
   <br />
@@ -282,6 +287,7 @@ https://github.com/qaviton/test_repository/issues
   <br />
   <br />
   <br />
+  
 חלק ה' – Open new branch  
 ========================  
   <br />
@@ -296,6 +302,7 @@ https://github.com/qaviton/test_repository/issues
   <br />
   <br />
   <br />
+  
 חלק ו' – בניית טסטים  
 ====================  
   <br />
@@ -438,6 +445,7 @@ https://www.jetbrains.com/help/pycharm/pytest.html
   <br />
   <br />
   <br />
+  
 חלק ז' – Pull Request  
 ===================== 
   <br />
