@@ -24,8 +24,8 @@ Work Procedure-Qaviton opensource test repository
 3.	להתקין PYCHARM COMMUNITY EDITION - https://www.jetbrains.com/pycharm/download/    <br />
 4.	לפתוח משתמש ב-GITHUB    <br />
 5.	לעשות ווידוא של המשתמש במייל.    <br />
-6.	לשלוח בקבוצת OPENSOURCE  בואטסאפ את השם משתמש בכדי שנוסיף אתכם כ-CONTRIBUTERS.    <br />
-7.	כעת תאשר במייל את ההזמנה ל-REPOSIDOTY של – QAVITON:    <br />
+6.	לשלוח בקבוצת בואטסאפ את השם משתמש בכדי שנוסיף אתכם לפרויקט.    <br />
+7.	כעת תאשר במייל את ההזמנה לפרויקט:    <br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/git1.png)  
   <br />
@@ -47,7 +47,10 @@ https://github.com/qaviton/qaviton    <br />
   <br />
   <br />
   <br />
-3.	בהמשך הדף תחת קטגוריית "Contributing" ללחוץ על "Contributing Guidelines".    <br />
+3.	בהמשך הדף תחת קטגוריית  <br />
+"Contributing"  <br />
+ללחוץ על <br />
+ "Contributing Guidelines".    <br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/cont1.png)  
     <br />
@@ -68,27 +71,31 @@ https://github.com/qaviton/qaviton    <br />
     <br />
   <br />
   <br />
-6.	  אחר מכן נכנס ל-"FORK".    <br />
-Fork- הינו לקחת את הקוד הראשי ולהעתיק אותו אל     <br />
+6.	  לאחר מכן נכנס ל-"FORK".    <br />
+שתפקידו לקחת את הקוד הראשי ולהעתיק אותו אל     <br />
 המשתמש המקומי לעבודה מקומית ללא פגיעה בקוד המקור.    <br />
   <br />
-7.	לאחר שלחצנו על FORK הוא יקשר את הקוד    <br />
- למשתמש שלנו – כמו שאפשר לראות כאן, המשתמש כבר מקושר לקוד    <br />
- הנ"ל ( במידה ולא כל מה שנדרש זה ללחוץ על שם המשתמש שלנו.)    <br />
+7.	לאחר שלחצנו על<br />
+   FORK הוא יקשר את הקוד<br />
+ למשתמש שלנו – כמו שאפשר לראות כאן, המשתמש כבר מקושר לקוד  <br />
+ הנ"ל ( במידה ולא כל מה שנדרש זה ללחוץ על שם המשתמש שלנו.)  <br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/fork1.png)  
     <br />
   <br />
   <br />
   <br />
-8.	כעת אנו נראה ש-QAVITON נכנס תחת המשתמש שלנו:    <br />
+8.	כעת אנו נראה תחת המשתמש שלנו<br />
+    QAVITON <br />
   <br />
+  
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/fork2.png)  
     <br />
   <br />
   <br />
   <br />
-9.	כעת נעבור לדף: https://github.com/qaviton/test_repository    <br />
+9.	כעת נעבור לדף:<br />
+    https://github.com/qaviton/test_repository <br />
 נחזור על כל הסעיפים בחלק ב' מסעיף 1 עד 8 ( STAR + FORK).    <br />
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/go_to_repo2.png)  
@@ -99,7 +106,7 @@ Fork- הינו לקחת את הקוד הראשי ולהעתיק אותו אל   
   <br />
 ![alt text](https://github.com/qaviton/test_repository/blob/dev/docs/heb/img/repo2cont2.png)  
   <br />
-      <br />
+  <br />
   <br />
   <br />
   <br />
