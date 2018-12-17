@@ -1,4 +1,5 @@
 from qaviton.page import Page as page
+from tests.parameters import url
 
 
 class Page(page):
@@ -8,6 +9,6 @@ class Page(page):
     you should always include here a navigation to your initial login page(starting point)
     so that dependent tests could always start fresh if needed.
     """
-    def navigate_to_QavitonHomePage(self, weight=3, *args, **kwargs):
-        self.driver.get("https://www.qaviton.com/")
+    def navigate_to_HomePage(self, weight=3, *args, **kwargs):
+        self.driver.get(url.home)
         self.wait_until_page_loads()
