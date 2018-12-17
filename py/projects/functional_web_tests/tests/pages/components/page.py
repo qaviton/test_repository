@@ -1,5 +1,5 @@
 from qaviton.page import Page as page
-from tests.parameters import url
+from tests.config import url
 
 
 class Page(page):

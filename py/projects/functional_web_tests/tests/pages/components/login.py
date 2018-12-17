@@ -1,5 +1,5 @@
 from qaviton.page import Page as page
-from tests.parameters.locators import locator
+from tests.config.locators import locator
 
 
 class Login(page):
