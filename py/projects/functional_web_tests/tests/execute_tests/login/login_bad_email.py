@@ -6,3 +6,6 @@ def login_invalid_email_character_test(app):
 def login_invalid_email_test(app):
     app.navigate(app.home.login)
     app.home.login.error(email="idannnn@gmail.com", password="idan", error="email not found")
+
+
+#done
