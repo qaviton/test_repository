@@ -1,4 +1,4 @@
-def test_login(app):
+def test_login_with_facebook(app):
     app.navigate(app.home.login)
     app.home.login(usename="idan", password="idan")
 
