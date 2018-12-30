@@ -7,6 +7,7 @@ class HomePage(Page):
     def __init__(self, driver):
         Page.__init__(self, driver)
         self.login = Login(driver)
+        self.login_with_email = Login_mail(driver)
 
     def go_to_login(self):
         return self.find(locator.go_to_login)

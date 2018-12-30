@@ -1,7 +1,7 @@
 from qaviton.navigator import Navigator
 from tests.config.locators import locator
 from tests.pages.components.page import Page
-from tests.pages.home import QavitonHomePage
+from tests.pages.home import HomePage
 
 
 class App(Page):
@@ -14,6 +14,6 @@ class App(Page):
 
     def __init__(self, driver, platform):
         Page.__init__(self, driver, platform=platform)
-        self.qaviton_home = QavitonHomePage(driver)
+        self.qaviton_home = HomePage(driver)
 
         self.navigate = Navigator(self.qaviton_home, auto_connect=self)
