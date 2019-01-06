@@ -7,7 +7,7 @@ def login(username, password):
     :STEP:
     :param username:
     :param password:
-    :return: token
+    :return token:
     :call: app.login
     """
     if os.name == 'net':
