@@ -8,7 +8,7 @@ def login(username, password):
     :param username:
     :param password:
     :return token:
-    :call: app.login
+    :call app.login:
     """
     if os.name == 'net':
         print(1)
@@ -25,7 +25,7 @@ def logout():
     """
     :step: log out
     :from tests.steps.step1 import logout
-    :call: app.login
+    :call app.login:
     """
     if os.name == 'net':
         print(1)
@@ -40,7 +40,7 @@ def go_to_cart():
     """
     :step:
     :import web.go_to_cart
-    :call: web.go_to_cart
+    :call web.go_to_cart:
     """
     if os.name == 'net':
         print(1)
