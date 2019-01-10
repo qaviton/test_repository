@@ -1,16 +1,16 @@
-def login_invalid_user_length_test(app):
+def login_invalid_username_length_test(app):
     app.navigate(app.home.login)
-    app.home.login.error(usename="id$a3983kkkk3kkkkk", password="idan", error="username is too long")
+    app.home.login.with_error(username="i", password="1qugiufg", error="invalid username length")
 
 
 def login_invalid_password_length_test(app):
     app.navigate(app.home.login)
-    app.home.login.error(usename="idan", password="idanhakimi1233444idanhakimi", error="password is too long")
+    app.home.login.with_error(username="idan", password="idanhakimi1233444idanhsdsdsdsdsdakimi", error="invalid password length")
 
 def login_invalid_email_length_test(app):
     app.navigate(app.home.login)
-    app.home.login.error(email="ida1292hakimiidanhakimi234@gmail.com", password="idan", error="email is too long")
+    app.home.login.with_error(username="ida1292hakimiidanhakimi234@gmail.com", password="idan", error="invalid email length")
 
 
 
-#Done
+#Done :)

@@ -2,7 +2,7 @@ from qaviton import crosstest
 from tests.config.private import hub
 #from tests.config.supported_platforms import sessionTimeout
 
-app = 'https://www.google.com/'
+app = 'https://github.com/'
 screenResolution = "1000x860x24"
 
 
@@ -10,12 +10,12 @@ screenResolution = "1000x860x24"
 platforms = crosstest.Platforms()
 platforms.web.command_executor = hub
 
-sessionTimeout = 600
+sessionTimeout = 30
 
 # add chrome browser support
 platforms.web({
     'browserName': "chrome",
-    'version': "",
+    'version': "60.0",
     'platform': "ANY",
     'app': app,
     'screenResolution': screenResolution,
