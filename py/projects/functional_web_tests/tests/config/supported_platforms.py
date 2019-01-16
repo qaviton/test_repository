@@ -1,6 +1,7 @@
 from qaviton import crosstest
 from tests.config.private import hub
-from tests.config.supported_platforms import sessionTimeout
+
+sessionTimeout = 60
 
 app = 'https://www.google.com/'
 screenResolution = "1000x860x24"
