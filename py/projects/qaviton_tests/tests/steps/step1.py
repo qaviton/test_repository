@@ -4,11 +4,11 @@ from sys import path
 
 def login(username, password):
     """
-    :STEP:
+    :step: login
     :param username:
     :param password:
-    :return: token
-    :call: app.login
+    :return token:
+    :call app.login:
     """
     if os.name == 'net':
         print(1)
@@ -23,9 +23,9 @@ def login(username, password):
 
 def logout():
     """
-    :STEP:
+    :step: log out
     :from tests.steps.step1 import logout
-    :call: app.login
+    :call app.login:
     """
     if os.name == 'net':
         print(1)
@@ -38,9 +38,9 @@ def logout():
 
 def go_to_cart():
     """
-    :STEP:
+    :step:
     :import web.go_to_cart
-    :call: web.go_to_cart
+    :call web.go_to_cart:
     """
     if os.name == 'net':
         print(1)
@@ -53,7 +53,7 @@ def go_to_cart():
 
 def checkout():
     """
-    :STEP:
+    :step:
     """
     if os.name == 'net':
         print(1)
