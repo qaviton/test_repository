@@ -25,8 +25,8 @@ class Login(page):
         self.login_pass().send(password)
         self.login_button().click()
         self.wait_until_page_loads()
-        #self.find(locator.text(error))
-        self.confirm_element_is_deleted(locator.login_user)
+        self.find(locator.text(error))
+        #self.confirm_element_is_deleted(locator.login_user)
 
     # def login_email(self):
     #     return self.find(locator.login_email)
