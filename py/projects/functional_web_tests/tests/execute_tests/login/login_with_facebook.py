@@ -1,7 +1,7 @@
 def test_login_with_facebook(app):
     app.navigate(app.home.login)
-    app.home.login(usename="idan", password="idan")
+    app.home.login.with_facebook()
 
-
-
-##How to do that
+def test_login_with_bad_facebook(app):
+        app.navigate(app.home.login)
+        app.home.login.with_error_facebook()facebook(error="facebook not found")
