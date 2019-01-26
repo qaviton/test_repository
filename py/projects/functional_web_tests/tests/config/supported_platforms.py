@@ -1,23 +1,20 @@
 from qaviton import crosstest
 from tests.config.private import hub
-#from tests.config.supported_platforms import sessionTimeout
+from tests.config import url
 
-app = 'https://github.com/'
+
+sessionTimeout = 60
 screenResolution = "1000x860x24"
-
-
-# create cross-platform testing object
 platforms = crosstest.Platforms()
 platforms.web.command_executor = hub
 
-sessionTimeout = 30
 
 # add chrome browser support
 platforms.web({
     'browserName': "chrome",
-    'version': "60.0",
+    'version': "",
     'platform': "ANY",
-    'app': app,
+    'app': url.home,
     'screenResolution': screenResolution,
     'sessionTimeout': sessionTimeout,
     'enableVNC': True,
@@ -25,5 +22,3 @@ platforms.web({
     'name': "{}",
     'videoName': "{}.mp4",
     'logName': "{}.log"})
-
-
