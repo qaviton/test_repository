@@ -8,3 +8,4 @@ class locator(Locator):
     login_user = ('id', 'login_user')
     login_pass = ('id', 'login_pass')
     login_button = ('id', 'login_button')
+
