@@ -19,4 +19,5 @@ class locator(Locator):
     login_user = ('id', 'login_user')
     login_email = ('id', 'login_email')
     login_pass = ('id', 'login_pass')
+    login_facebook = ('id', 'login_facebook')
     login_button = ('id', 'login_button')
