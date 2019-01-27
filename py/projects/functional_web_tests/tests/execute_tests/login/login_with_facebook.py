@@ -1,6 +1,7 @@
 def test_login_with_facebook(app):
     app.navigate(app.home.login)
-    app.home.login.with_facebook()
+    app.home.login(usename="idan", password="idan")
+
 
 def test_login_with_facebook_failure(app):
         app.navigate(app.home.login)
