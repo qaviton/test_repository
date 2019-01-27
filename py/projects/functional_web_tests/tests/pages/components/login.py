@@ -36,7 +36,7 @@ class Login(page):
         self.wait_until_page_loads()
         self.confirm_element_is_deleted(locator.login_facebook)
 
-    def with_error_facebook(self, error):
+    def with_facebook_error(self, error):
         self.login_facebook().click()
         self.wait_until_page_loads()
         self.find(locator.text(error))

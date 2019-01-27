@@ -13,6 +13,6 @@ class HomePage(Page):
         #return self.find(locator.go_to_login)
 
     def navigate_to_Login(self, weight=10, *args, **kwargs):
-        self.get_page('https://github.com/login')
+        self.get_page('https://www.cnet.com/')
         # self.go_to_login().click()
         self.wait_until_page_loads()
