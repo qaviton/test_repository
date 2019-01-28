@@ -7,5 +7,6 @@ class locator(Locator):
     go_to_login = ('id', 'login')
     login_user = ('id', 'login_user')
     login_pass = ('id', 'login_pass')
+    login_facebook = ('id', 'login_facebook')
     login_button = ('id', 'login_button')
 
