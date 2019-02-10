@@ -5,6 +5,7 @@ from tests.config import url
 
 sessionTimeout = 60
 screenResolution = "1000x860x24"
+
 platforms = crosstest.Platforms()
 platforms.web.command_executor = hub
 
@@ -12,7 +13,7 @@ platforms.web.command_executor = hub
 # add chrome browser support
 platforms.web({
     'browserName': "chrome",
-    'version': "",
+    'version': "68",
     'platform': "ANY",
     'app': url.home,
     'screenResolution': screenResolution,
