@@ -38,6 +38,7 @@ class Login(page):
         self.find(locator.text(error))
         #self.confirm_element_is_deleted(locator.login_user)
 
+
     def with_facebook(self, username, password):
         number_of_handles = len(self.driver.window_handles)
         self.login_facebook().click()
@@ -73,27 +74,51 @@ class Login(page):
         self.confirm_element_is_deleted(locator.login_facebook)
 
 
-    def with_facebook_error(self, error):
+    def with_error_facebook(self, username, password):
+        number_of_handles = len(self.driver.window_handles)
         self.login_facebook().click()
         self.wait_until_page_loads()
-        self.find(locator.text(error))
 
-    def with_instagram(self):
-        self.login_instagram().click()
-        self.wait_until_page_loads()
-        self.confirm_element_is_deleted(locator.login_instagram)
+        t = time.time()
+        while number_of_handles == len(self.driver.window_handles):
+            time.sleep(0.005)
+            if number_of_handles < len(self.driver.window_handles):
+                break
+            elif time.time() - t >= 5:
+                raise Exception('facebook login window failed to open')
 
-    def with_instagram_error(self, error):
-        self.login_instagram().click()
-        self.wait_until_page_loads()
-        self.find(locator.text(error))
+        main_window = self.driver.current_window_handle
+        facebook_window = self.driver.window_handles[-1]
+        self.driver.switch_to.window(facebook_window)
 
-    def with_linkedin(self):
-        self.login_linkedin().click()
         self.wait_until_page_loads()
-        self.confirm_element_is_deleted(locator.login_linkedin)
+        self.find(('id', 'email')).send(username)
+        self.find(('id', 'pass')).send(password)
+        self.find(('id', 'loginbutton')).click()
+        self.wait_until_page_loads()
+        try:
+            self.find(('data-testid', 'undefined'))
+        except Exception as e:
+            raise Exception('facebook login error message was expected but found none: {}'.format(e))
 
-    def with_linkedin_error(self, error):
-        self.login_linkedin().click()
-        self.wait_until_page_loads()
-        self.find(locator.text(error))
+
+
+    # def with_instagram(self):
+    #     self.login_instagram().click()
+    #     self.wait_until_page_loads()
+    #     self.confirm_element_is_deleted(locator.login_instagram)
+    #
+    # def with_instagram_error(self, error):
+    #     self.login_instagram().click()
+    #     self.wait_until_page_loads()
+    #     self.find(locator.text(error))
+    #
+    # def with_linkedin(self):
+    #     self.login_linkedin().click()
+    #     self.wait_until_page_loads()
+    #     self.confirm_element_is_deleted(locator.login_linkedin)
+    #
+    # def with_linkedin_error(self, error):
+    #     self.login_linkedin().click()
+    #     self.wait_until_page_loads()
+    #     self.find(locator.text(error))
