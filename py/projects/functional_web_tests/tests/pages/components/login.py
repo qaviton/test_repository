@@ -17,11 +17,12 @@ class Login(page):
     def login_facebook(self):
         return self.find(locator.login_facebook)
 
-    def login_instagram(self):
-        return self.find(locator.login_instagram)
+    def login_google(self):
+        return self.find(locator.login_google)
 
-    def login_linkedin(self):
-        return self.find(locator.login_linkedin)
+    def next_google(self):
+        return self.find(('text', 'Next'))
+
 
     def __call__(self, username, password):
         self.login_user().send(username)
@@ -103,22 +104,21 @@ class Login(page):
 
 
 
-    # def with_instagram(self):
-    #     self.login_instagram().click()
-    #     self.wait_until_page_loads()
-    #     self.confirm_element_is_deleted(locator.login_instagram)
-    #
-    # def with_instagram_error(self, error):
-    #     self.login_instagram().click()
-    #     self.wait_until_page_loads()
-    #     self.find(locator.text(error))
-    #
-    # def with_linkedin(self):
-    #     self.login_linkedin().click()
-    #     self.wait_until_page_loads()
-    #     self.confirm_element_is_deleted(locator.login_linkedin)
-    #
-    # def with_linkedin_error(self, error):
-    #     self.login_linkedin().click()
-    #     self.wait_until_page_loads()
-    #     self.find(locator.text(error))
+
+    def with_google(self, username, password):
+        self.driver.save_screenshot('C:\\Users\\אידן חכימי\\PycharmProjects\\test_repository\\1.png')
+        self.login_google().click()
+        self.driver.save_screenshot('C:\\Users\\אידן חכימי\\PycharmProjects\\test_repository\\2.png')
+        self.wait_until_page_loads()
+        self.find(('name', 'identifier')).send(username)
+        self.next_google().click()
+        self.wait_until_page_loads()
+        self.find(('name', 'password')).send(password)
+        self.next_google().click()
+        self.wait_until_page_loads()
+
+
+
+
+
+
