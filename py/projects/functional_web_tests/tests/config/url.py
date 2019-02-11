@@ -1,1 +1,1 @@
-home = "https://www.cnet.com/"
+home = "https://medium.com/"
