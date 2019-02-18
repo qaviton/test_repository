@@ -5,8 +5,8 @@ from sys import path
 def login(username, password):
     """
     :step: login
-    :param username:
-    :param password:
+    :arg username:
+    :arg password='123456':
     :return token:
     :call app.login:
     """
