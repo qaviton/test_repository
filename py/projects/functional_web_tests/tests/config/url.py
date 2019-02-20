@@ -1,1 +1,1 @@
-home = "https://www.qaviton.com"
+home = "https://www.qaviton.com/"

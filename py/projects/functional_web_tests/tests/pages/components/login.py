@@ -155,11 +155,22 @@ class Login(page):
         self.wait_until_page_loads()
 
 
-        def with_linkedin(self, username, password):
-            self.login_linkedin().click()
-            self.wait_until_page_loads()
-            self.find(('id', 'username_or_email')).send(username)
-            self.wait_until_page_loads()
-            self.find(('id', 'password')).send(password)
-            self.next_linkedin().click()
-            self.wait_until_page_loads()
+    def with_linkedin(self, username, password):
+        self.login_linkedin().click()
+        self.wait_until_page_loads()
+        self.find(('id', 'username_or_email')).send(username)
+        self.wait_until_page_loads()
+        self.find(('id', 'password')).send(password)
+        self.next_linkedin().click()
+        self.wait_until_page_loads()
+
+    def sign_out(self, username, password):
+        self.login_user().send(username)
+        self.login_pass().send(password)
+        self.login_button().click()
+        self.wait_until_page_loads()
+        self.confirm_element_is_deleted(locator.login_user)
+        self.click(locator.go_to_sign_out)
+        self.click(('text', 'Sign out'))
+        self.click(('text', 'Continue'))
+
