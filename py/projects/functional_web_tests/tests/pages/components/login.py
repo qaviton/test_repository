@@ -23,6 +23,27 @@ class Login(page):
     def next_google(self):
         return self.find(('text', 'Next'))
 
+    def login_github(self):
+        return self.find(locator.login_github)
+
+    def next_github(self):
+        return self.find(('name', 'commit'))
+
+    def login_twitter(self):
+        return self.find(locator.login_twitter)
+
+    def next_twitter(self):
+        return self.find(('id', 'allow'))
+
+    def login_linkedin(self):
+        return self.find(locator.login_linkedin)
+
+    def next_linkedin(self):
+        return self.find(('id', 'commit'))
+
+
+
+
 
     def __call__(self, username, password):
         self.login_user().send(username)
@@ -106,9 +127,7 @@ class Login(page):
 
 
     def with_google(self, username, password):
-        self.driver.save_screenshot('C:\\Users\\אידן חכימי\\PycharmProjects\\test_repository\\1.png')
         self.login_google().click()
-        self.driver.save_screenshot('C:\\Users\\אידן חכימי\\PycharmProjects\\test_repository\\2.png')
         self.wait_until_page_loads()
         self.find(('name', 'identifier')).send(username)
         self.next_google().click()
@@ -117,8 +136,30 @@ class Login(page):
         self.next_google().click()
         self.wait_until_page_loads()
 
+    def with_github(self, username, password):
+        self.login_github().click()
+        self.wait_until_page_loads()
+        self.find(('id', 'login_field')).send(username)
+        self.wait_until_page_loads()
+        self.find(('id', 'password')).send(password)
+        self.next_github().click()
+        self.wait_until_page_loads()
+
+    def with_twitter(self, username, password):
+        self.login_twitter().click()
+        self.wait_until_page_loads()
+        self.find(('id', 'username_or_email')).send(username)
+        self.wait_until_page_loads()
+        self.find(('id', 'password')).send(password)
+        self.next_twitter().click()
+        self.wait_until_page_loads()
 
 
-
-
-
+        def with_linkedin(self, username, password):
+            self.login_linkedin().click()
+            self.wait_until_page_loads()
+            self.find(('id', 'username_or_email')).send(username)
+            self.wait_until_page_loads()
+            self.find(('id', 'password')).send(password)
+            self.next_linkedin().click()
+            self.wait_until_page_loads()
