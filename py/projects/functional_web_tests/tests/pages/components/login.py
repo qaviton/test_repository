@@ -42,9 +42,6 @@ class Login(page):
         return self.find(('id', 'commit'))
 
 
-
-
-
     def __call__(self, username, password):
         self.login_user().send(username)
         self.login_pass().send(password)
@@ -173,4 +170,9 @@ class Login(page):
         self.click(locator.go_to_sign_out)
         self.click(('text', 'Sign out'))
         self.click(('text', 'Continue'))
+
+
+
+
+
 
