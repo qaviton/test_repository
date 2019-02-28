@@ -40,3 +40,14 @@ class SignUp(page):
         self.click(('class', 'button'))
         self.wait_until_page_loads()
         self.confirm_element_is_deleted(locator.signup_with_mail_button)
+
+    def sign_up_with_robot(self, username, password):
+        self.signup_with_mail_button().click()
+        self.signup_user().send(username)
+        self.signup_pass().send(password)
+        self.click(('id', 'no_robot'))
+        self.click(('class', 'signup-form__terms-checkbox'))
+        self.click(('class', 'button'))
+        self.wait_until_page_loads()
+        self.confirm_element_is_deleted(locator.signup_with_mail_button)
+
