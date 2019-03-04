@@ -38,3 +38,45 @@ def test_regular_signup_with_robot_and_navbar(app):
 def test_regular_signup_with_robot_no_navbar(app):
     app.navigate(app.home.signup)
     app.home.signup.sign_up_with_robot(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+
+
+##sign up after try sign in with few entries no terms
+
+def test_sign_up_with_robot_and_mail_no_terms_no_navbar(app):
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_with_robot_and_mail_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+def test_sign_up_with_mail_and_robot_no_terms_no_navbar(app):
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_with_mail_and_robot_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+def test_sign_up_with_mail_no_terms_no_navbar(app):
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_with_mail_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+def test_sign_up_no_terms_no_navbar(app):
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+##sign up after try sign in with few entries no terms with navbar
+
+def test_sign_up_with_robot_and_mail_no_terms_with_navbar(app):
+    app.navigate(app.home.navbar)
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_with_robot_and_mail_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+def test_sign_up_with_mail_and_robot_no_terms_with_navbar(app):
+    app.navigate(app.home.navbar)
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_with_mail_and_robot_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+def test_sign_up_with_mail_no_terms_with_navbar(app):
+    app.navigate(app.home.navbar)
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_with_mail_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+def test_sign_up_no_terms_with_navbar(app):
+    app.navigate(app.home.navbar)
+    app.navigate(app.home.signup)
+    app.home.signup.sign_up_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
