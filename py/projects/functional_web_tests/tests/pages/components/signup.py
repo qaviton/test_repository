@@ -51,3 +51,35 @@ class SignUp(page):
         self.wait_until_page_loads()
         self.confirm_element_is_deleted(locator.signup_with_mail_button)
 
+    def sign_up_no_terms(self, username, password):
+        self.signup_user().send(username)
+        self.signup_pass().send(password)
+        self.click(('class', 'button'))
+        self.wait_until_page_loads()
+        self.confirm_element_is_deleted(locator.signup_with_mail_button)
+
+    def sign_up_with_mail_no_terms(self, username, password):
+        self.signup_with_mail_button().click()
+        self.signup_user().send(username)
+        self.signup_pass().send(password)
+        self.click(('class', 'button'))
+        self.wait_until_page_loads()
+        self.confirm_element_is_deleted(locator.signup_with_mail_button)
+
+    def sign_up_with_mail_and_robot_no_terms(self, username, password):
+        self.signup_with_mail_button().click()
+        self.signup_user().send(username)
+        self.signup_pass().send(password)
+        self.click(('id', 'no_robot'))
+        self.click(('class', 'button'))
+        self.wait_until_page_loads()
+        self.confirm_element_is_deleted(locator.signup_with_mail_button)
+
+    def sign_up_with_robot_and_mail_no_terms(self, username, password):
+        self.signup_user().send(username)
+        self.signup_pass().send(password)
+        self.click(('id', 'no_robot'))
+        self.click(('class', 'button'))
+        self.wait_until_page_loads()
+        self.confirm_element_is_deleted(locator.signup_with_mail_button)
+
