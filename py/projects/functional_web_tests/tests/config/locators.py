@@ -17,10 +17,10 @@ from qaviton.locator import Locator
 class locator(Locator):
     type_submit = ('type', 'submit')
     logo = ('id', 'site-logo')
-    go_to_login = ('id', 'idcta-link')
+    go_to_login = ('text', 'Sign In')
     login_user = ('id', 'signup-form__email')
     login_pass = ('id', 'password-input__password')
-    login_facebook = ('class', 'facebook')
+    login_facebook = ('text', 'Sign in with Facebook')
     login_google = ('text', 'Sign in with Google')
     login_github = ('text', 'Sign in with GitHub')
     login_twitter = ('text', 'Sign in with Twitter')

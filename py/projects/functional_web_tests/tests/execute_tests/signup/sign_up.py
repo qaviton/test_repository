@@ -80,3 +80,5 @@ def test_sign_up_no_terms_with_navbar(app):
     app.navigate(app.home.navbar)
     app.navigate(app.home.signup)
     app.home.signup.sign_up_no_terms(username="sdsdsdsd@gmail.com", password="sdsdsdtterssd1239")
+
+

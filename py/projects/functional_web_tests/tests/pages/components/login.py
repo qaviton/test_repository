@@ -60,8 +60,10 @@ class Login(page):
 
     def with_facebook(self, username, password):
         number_of_handles = len(self.driver.window_handles)
+        self.driver.save_screenshot(filename='C:\\Users\\אידן חכימי\\PycharmProjects\\1.png')
         self.login_facebook().click()
         self.wait_until_page_loads()
+        self.driver.save_screenshot(filename='C:\\Users\\אידן חכימי\\PycharmProjects\\2.png')
 
         t = time.time()
         while number_of_handles == len(self.driver.window_handles):
@@ -74,12 +76,15 @@ class Login(page):
         main_window = self.driver.current_window_handle
         facebook_window = self.driver.window_handles[-1]
         self.driver.switch_to.window(facebook_window)
-
+        self.driver.save_screenshot(filename='C:\\Users\\אידן חכימי\\PycharmProjects\\3.png')
         self.wait_until_page_loads()
         self.find(('id', 'email')).send(username)
+        self.driver.save_screenshot(filename='C:\\Users\\אידן חכימי\\PycharmProjects\\4.png')
         self.find(('id', 'pass')).send(password)
+        self.driver.save_screenshot(filename='C:\\Users\\אידן חכימי\\PycharmProjects\\5.png')
         self.find(('id', 'loginbutton')).click()
         self.wait_until_page_loads()
+        self.driver.save_screenshot(filename='C:\\Users\\אידן חכימי\\PycharmProjects\\6.png')
         self.confirm_element_is_deleted(('id', 'loginbutton'))
         facebook_permission_confirmation = self.try_to_find_all(('type', 'submit'))
         if len(facebook_permission_confirmation) == 4:
@@ -91,7 +96,7 @@ class Login(page):
         self.driver.switch_to.window(main_window)
         self.wait_until_page_loads()
         self.confirm_element_is_deleted(locator.login_facebook)
-
+        self.driver.save_screenshot(filename='C:\\Users\\אידן חכימי\\PycharmProjects\\7.png')
 
     def with_error_facebook(self, username, password):
         number_of_handles = len(self.driver.window_handles)
