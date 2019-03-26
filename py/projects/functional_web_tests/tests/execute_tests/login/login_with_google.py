@@ -2,7 +2,10 @@ def test_login_with_google(app):
     app.navigate(app.home.login)
     app.home.login.with_google(username="idsdsda@digithouse.net", password="1sdsdsdsdsdsd")
 
-
+def test_login_with_google_with_navbar(app):
+    app.navigate(app.home.navbar)
+    app.navigate(app.home.login)
+    app.home.login.with_google(username="idsdsda@digithouse.net", password="1sdsdsdsdsdsd")
 
 # def with_google_new_tab(app):
 #     app.navigate(app.home.login)
