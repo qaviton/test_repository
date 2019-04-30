@@ -1,7 +1,7 @@
-def health_check_test(app):
+def test_health_check(app):
     app.navigate(app.home)
 
-def health_check_test_with_navbar(app):
+
+def test_navbar_health_check(app):
     app.navigate(app.home.navbar)
     app.navigate(app.home)
-

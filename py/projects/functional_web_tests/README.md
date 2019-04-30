@@ -15,20 +15,30 @@ make sure you have python 3.7+ installed.
 Install and update using `pip`_:
 
 .. code-block:: text
-
-    coming soon
+    
+    pip install functional_web_tests -U
+    python -m qaviton create tests
 
 
 A Simple Example
 ----------------
 
 .. code-block:: python
-
-    #coming soon! =)
+    
+    tests/test_health_check.py
+    --------------------
+       
+    from functional_web_tests.tests.services.app import App
+    from functional_web_tests.tests.execute_tests.login.test_health_check import test_health_check as health_check
+    
+    def test_health_check(app):
+        app = App(driver=app.driver, platform=app.platform)
+        health_check(app)
+        
 
 .. code-block:: text
 
-    coming soon
+    python -m pytest tests/test_health_check.py
 
 Contributing
 ------------
