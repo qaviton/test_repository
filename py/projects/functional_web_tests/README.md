@@ -14,16 +14,15 @@ Installing
 make sure you have python 3.7+ installed.
 Install and update using `pip`_:
 
-.. code-block:: text
-    
+```
     pip install functional_web_tests -U
     python -m qaviton create tests
-
+```  
 
 A Simple Example
 ----------------
 
-.. code-block:: python
+```
     
     tests/test_health_check.py
     --------------------
@@ -35,10 +34,11 @@ A Simple Example
         app = App(driver=app.driver, platform=app.platform)
         health_check(app)
         
-
-.. code-block:: text
+```
+```
 
     python -m pytest tests/test_health_check.py
+```  
 
 Contributing
 ------------
