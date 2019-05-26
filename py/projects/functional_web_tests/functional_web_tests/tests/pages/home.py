@@ -1,9 +1,9 @@
-from tests.pages.components.page import Page
-from tests.config.locators import locator
-from tests.pages.components.login import Login
-from tests.pages.components.signup import SignUp
-from tests.pages.components.home_navbar import HomeNavBar
-from tests.config import url
+from functional_web_tests.tests.pages.components.page import Page
+from functional_web_tests.tests.config.locators import locator
+from functional_web_tests.tests.pages.components.login import Login
+from functional_web_tests.tests.pages.components.signup import SignUp
+from functional_web_tests.tests.pages.components.home_navbar import HomeNavBar
+# from functional_web_tests.tests.config import url
 
 
 class HomePage(Page):

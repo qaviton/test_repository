@@ -1,6 +1,6 @@
 import pytest
-from tests.services.app import App
-from tests.config.supported_platforms import platforms
+from functional_web_tests.tests.services.app import App
+from functional_web_tests.tests.config.supported_platforms import platforms
 
 
 @pytest.fixture(scope='session', params=platforms.get())

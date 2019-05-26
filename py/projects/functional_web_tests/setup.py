@@ -32,7 +32,7 @@
 
 
 import io
-from tests import __version__ as version
+from functional_web_tests import __version__ as version
 from setuptools import setup, find_packages
 
 
@@ -60,7 +60,7 @@ setup(
     author_email='yehonadav@Qaviton.com',
     url='https://qaviton.com/',
     packages=packages,
-    data_files=[('tests', ['tests/steps.json'])],
+    data_files=[('functional_web_tests', ['functional_web_tests/steps.json'])],
     include_package_data=True,
     license='Apache 2.0',
     classifiers=[

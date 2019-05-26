@@ -1,6 +1,6 @@
-import time
+# import time
 from qaviton.page import Page as page
-from tests.config.locators import locator
+from functional_web_tests.tests.config.locators import locator
 
 
 class HomeNavBar(page):
