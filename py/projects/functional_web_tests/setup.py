@@ -38,12 +38,17 @@ from setuptools import setup, find_packages
 
 packages = []
 for package in find_packages():
-    if package.startswith('tests'):
+    if package.startswith('functional_web_tests'):
         packages.append(package)
 
 
 with io.open('README.md', 'rt', encoding='utf8') as f:
     readme = f.read()
+
+
+with open('functional_web_tests\\tests\\config\\private.py', 'w+') as f:
+    secret = f.read()
+    f.write("hub = 'http://@.@.@.@:4444/wd/hub'\n")
 
 
 setup(
@@ -54,7 +59,7 @@ setup(
                 'with repeating and similar scenarios to test and maintain '
                 'a generic collection of tests intended to be copied '
                 'into other testing projects or to be used for examples to these projects.',
-    long_description=readme,
+    long_description=readme,  # maybe convert to rst
     keywords=['functional_web_tests'],
     author='Yehonadav Bar Elan',
     author_email='yehonadav@Qaviton.com',
@@ -81,3 +86,7 @@ setup(
         'qaviton>=0.1.1'
     ]
 )
+
+
+with open('functional_web_tests\\tests\\config\\private.py', 'w') as f:
+    f.write(secret)
