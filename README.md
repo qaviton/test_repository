@@ -1,4 +1,9 @@
 Qaviton-Repo
+![logo](https://www.qaviton.com/wp-content/uploads/logo-svg.svg)  
+[![version](https://img.shields.io/pypi/v/test_repository.svg)](https://pypi.python.org/pypi)
+[![open issues](https://img.shields.io/github/issues/qaviton/test_repository)](https://github/issues-raw/qaviton/test_repository)
+[![downloads](https://img.shields.io/pypi/dm/test_repository.svg)](https://pypi.python.org/pypi)
+![code size](https://img.shields.io/github/languages/code-size/qaviton/test_repository)  
 =======
 
 The first open source project to facilitate a unified testing automation framework for Web, Mobile & IoT
